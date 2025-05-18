@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  textarea {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    resize: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #28a745;
+    border: none;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
